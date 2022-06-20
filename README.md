@@ -48,6 +48,11 @@ var 嶲 = new 🎅();
 
 This should allow it to work wonders for those who need to do e.g. Mathematical expressions.. 
 
+A big part in why we are able to use emoji's and other unicode characters in the language is due to the following:
+-99.999% of Current parsers parse text characters at the byte level and limits the chars to 'a..zA..Z'
+This one doesn't impose any such limitation at all as well as this little beauty
+
+![image](https://user-images.githubusercontent.com/75542535/174681983-ea173854-96e2-48b9-bb6d-d49bef1e0ebb.png)
 
 
 LanguageCreator
