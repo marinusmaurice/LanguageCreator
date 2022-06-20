@@ -52,7 +52,8 @@ A big part in why we are able to use emoji's and other unicode characters in the
 -99.999% of Current parsers parse text characters at the byte level and limits the chars to 'a..zA..Z'
 This one doesn't impose any such limitation at all as well as this little beauty
 
-![image](https://user-images.githubusercontent.com/75542535/174681983-ea173854-96e2-48b9-bb6d-d49bef1e0ebb.png)
+![image](https://user-images.githubusercontent.com/75542535/174682074-55e2284f-baf4-4535-9239-dc9746a7d201.png)
+
 
 
 LanguageCreator
