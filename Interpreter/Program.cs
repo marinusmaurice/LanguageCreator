@@ -4,7 +4,7 @@ using Lang.Visitors;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
-using System;
+using System; 
 
 namespace Interpreter
 {
@@ -12,7 +12,8 @@ namespace Interpreter
     {
         static void Main(string[] args)
         {
-			var files = new List<string> (args).Where (File.Exists);
+           
+            var files = new List<string> (args).Where (File.Exists);
 
 			var str = files.Select (File.ReadAllText)
 						   .Aggregate (string.Empty, (acc, item) => acc + Environment.NewLine + item);
@@ -22,10 +23,13 @@ namespace Interpreter
 
 				return;
 			}
-
+             
             var ast = new LanguageParser(new Lexer(str)).Parse();
 
             new InterpretorVisitor().Start(ast);
+
+            Console.ReadLine();
         }
+ 
     }
 }
