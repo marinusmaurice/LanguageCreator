@@ -5,8 +5,9 @@ History
 Changed the framework from .net framework 4.0 to .Net6.0. This now allows us to write code as follows:
 🔎 <= replaced keyword 'class'
 🎅 <= class name
+ <= custom private character
 
-
+```csharp
 🔎 🎅{
     int  = 7;
     int 👩🏽‍🚒 = 9;
@@ -43,7 +44,7 @@ var 嶲 = new 🎅();
 嶲. = 嶲.👩🏽‍🚒 + 嶲.x  +  嶲. + 3;
 
 嶲.foo();
-
+```
 
 This should allow it to work wonders for those who need to do e.g. Mathematical expressions.. 
 
