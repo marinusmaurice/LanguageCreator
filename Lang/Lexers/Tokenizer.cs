@@ -1,14 +1,46 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
+using System.Text;
 
 namespace Lang.Lexers
 {
     public class Tokenizer : TokenizableStreamBase<String>
     {
         public Tokenizer(String source)
-            : base(() => source.ToCharArray().Select(i => i.ToString(CultureInfo.InvariantCulture)).ToList())
+
+        //MVM - 18 June 2022
+        //Fix #1. To allow Unicode chars to be used as variable and function names
+
+        : base(() => source.ToCharArray().Select(i => i.ToString(CultureInfo.InvariantCulture)).ToList())
+        //: base(() =>  source.EnumerateRunes().Select(i => i.ToString()).ToList() )        
+      
         {
+           
+        }
+
+        static string InsertNewlinesEveryTenTextElements(string input)
+        {
+            StringBuilder builder = new StringBuilder();
+
+            // Append chunks in multiples of 10 chars
+
+            TextElementEnumerator enumerator = StringInfo.GetTextElementEnumerator(input);
+            
+            int textElementCount = 1;
+            while (enumerator.MoveNext())
+            {
+                builder.Append(enumerator.Current);
+                if (textElementCount % 10 == 0 && textElementCount > 0)
+                {
+                    builder.AppendLine(); // newline
+                }
+                textElementCount++;
+            }
+
+            // Add a final newline.
+            builder.AppendLine(); // newline
+            return builder.ToString();
 
         }
     }

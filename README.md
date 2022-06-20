@@ -1,3 +1,54 @@
+History
+
+20 June 2022 - Maurice Marinus
+
+Changed the framework from .net framework 4.0 to .Net6.0. This now allows us to write code as follows:
+🔎 <= replaced keyword 'class'
+🎅 <= class name
+
+
+🔎 🎅{
+    int  = 7;
+    int 👩🏽‍🚒 = 9;
+    int x = 1;
+    int y = 2;
+    int  = 8;
+
+    void foo(){
+        print x;
+        print ;
+        print 👩🏽‍🚒;
+        print ;
+    }
+
+    void 😀(){
+        print "😀";
+    }
+
+}
+
+var 🦄 = new 🎅();
+var 嶲 = new 🎅();
+
+
+🦄.x = 111;
+🦄.foo();
+🦄.😀();
+
+ 
+嶲. = 10;
+
+嶲. = 嶲. + 3;
+
+嶲. = 嶲.👩🏽‍🚒 + 嶲.x  +  嶲. + 3;
+
+嶲.foo();
+
+
+This should allow it to work wonders for those who need to do e.g. Mathematical expressions.. 
+
+
+
 LanguageCreator
 ===============
 

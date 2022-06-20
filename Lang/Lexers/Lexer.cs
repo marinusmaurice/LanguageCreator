@@ -41,7 +41,7 @@ namespace Lang.Lexers
 
             var matchers = new List<IMatcher>(64);
 
-            var keywordmatchers = new List<IMatcher> 
+            var keywordmatchers = new List<IMatcher>
                                   {
                                       new MatchKeyword(TokenType.Void, "void"),
                                       new MatchKeyword(TokenType.Int, "int"),
@@ -58,7 +58,7 @@ namespace Lang.Lexers
                                       new MatchKeyword(TokenType.Boolean, "bool"),
                                       new MatchKeyword(TokenType.String, "string"),
                                       new MatchKeyword(TokenType.Method, "method"),
-                                      new MatchKeyword(TokenType.Class, "class"),
+                                      new MatchKeyword(TokenType.Class, "🔎"),//"class"),
                                       new MatchKeyword(TokenType.New, "new"),
                                       new MatchKeyword(TokenType.Nil, "nil"),
                                       new MatchKeyword(TokenType.Try, "try"),

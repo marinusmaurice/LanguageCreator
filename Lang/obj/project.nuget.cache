@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgvdpbCxvqZHPMOCzThQ0dIb9jfGl2VI7BXjkx4486g6KgZG2Hftlt7JSgTtzhsjveG7ofQ1BufQCGV0JkBUHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\0x74\\source\\repos\\LanguageCreator\\Lang\\Lang.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\0x74\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\0x74\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\0x74\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\0x74\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
+  "logs": []
+}

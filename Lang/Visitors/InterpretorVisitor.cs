@@ -548,7 +548,22 @@ namespace Lang.Visitors
         {
             var expression = GetValue(Exec(ast.Expression));
 
-            Console.WriteLine(expression);
+            if (expression == null)
+            {
+                Console.WriteLine(expression);
+                return;
+            }
+
+            if (expression.GetType().FullName == "System.Int32")
+            {
+                Console.WriteLine((int)expression);
+            } else
+            if (expression.GetType().FullName == "System.Object")
+            {
+                Console.WriteLine((object)expression);
+            }
+            else
+                Console.WriteLine(expression);
         }
 
         private void Assign(Ast ast, dynamic value, MemorySpace space = null)

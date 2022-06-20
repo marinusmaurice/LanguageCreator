@@ -1,0 +1,11 @@
+C:\Users\0x74\source\repos\LanguageCreator\Lang\bin\Debug\net6.0-windows\Lang.dll.config
+C:\Users\0x74\source\repos\LanguageCreator\Lang\bin\Debug\net6.0-windows\Lang.deps.json
+C:\Users\0x74\source\repos\LanguageCreator\Lang\bin\Debug\net6.0-windows\Lang.dll
+C:\Users\0x74\source\repos\LanguageCreator\Lang\bin\Debug\net6.0-windows\Lang.pdb
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\Lang.csproj.AssemblyReference.cache
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\Lang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\Lang.csproj.CoreCompileInputs.cache
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\Lang.dll
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\refint\Lang.dll
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\Lang.pdb
+C:\Users\0x74\source\repos\LanguageCreator\Lang\obj\Debug\net6.0-windows\ref\Lang.dll
