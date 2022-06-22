@@ -17,31 +17,6 @@ namespace Lang.Lexers
       
         {
            
-        }
-
-        static string InsertNewlinesEveryTenTextElements(string input)
-        {
-            StringBuilder builder = new StringBuilder();
-
-            // Append chunks in multiples of 10 chars
-
-            TextElementEnumerator enumerator = StringInfo.GetTextElementEnumerator(input);
-            
-            int textElementCount = 1;
-            while (enumerator.MoveNext())
-            {
-                builder.Append(enumerator.Current);
-                if (textElementCount % 10 == 0 && textElementCount > 0)
-                {
-                    builder.AppendLine(); // newline
-                }
-                textElementCount++;
-            }
-
-            // Add a final newline.
-            builder.AppendLine(); // newline
-            return builder.ToString();
-
-        }
+        } 
     }
 }
