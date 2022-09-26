@@ -2,7 +2,9 @@ History
 
 20 June 2022 - Maurice Marinus
 
-This is how a symbolic language is supposed to look like. (well as a starter). There is another emoji language project somewhere on github. That is NOT a symbolic language as it simply uses emoji's as replacement for keywords. With this one can actually define custom types, functions etc as symbols.
+THIS is how a symbolic language is supposed to look like. (well as a starter). 
+
+There is another emoji language project somewhere on github (with too many stars for my liking) which is NOT a symbolic language as it simply uses emoji's as replacement for keywords. With this one can actually define custom types, functions etc as symbols.
 
 Changed the framework from .net framework 4.0 to .Net6.0. This now allows us to write code as follows:
 🔎 <= replaced keyword 'class'
